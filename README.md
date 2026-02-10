@@ -1,8 +1,7 @@
-# env
+# QR Code
 
-To set up environments.
+Just create and use QR codes.
 
 ## License
 
 [MIT](./LICENSE)
-# qrcode
