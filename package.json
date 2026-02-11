@@ -1,0 +1,21 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "Just create and use QR codes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarsislimadev/qrcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tarsislimadev/qrcode/issues"
+  },
+  "homepage": "https://github.com/tarsislimadev/qrcode#readme"
+}
