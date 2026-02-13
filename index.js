@@ -1,28 +1,7 @@
-import { QRCodeScanner } from './QRCodeScanner.js'
+const img = document.getElementById('img')
 
-const __ = {
-  getWidth: () => window.innerWidth - 200,
-  getHeight: () => window.innerHeight - 200,
-}
-
-const element = document.createElement('div')
-document.body.append(element)
-
-const message = document.createElement('div')
-document.body.append(message)
-
-const QRCode = (
-  res = () => { },
-  rej = () => { },
-) => QRCodeScanner({
-  element,
-  width: __.getWidth(),
-  height: __.getHeight(),
-  onScanSuccess: (result) => res(result),
-  onScanError: (error) => rej(error),
+document.getElementById('button').addEventListener('click', () => {
+  const text = document.getElementById('input').value
+  img.src = `https://api.qrserver.com/v1/create-qr-code/?size=320x320&data=${encodeURIComponent(text)}`
+  img.style.display = 'block'
 })
-
-window.addEventListener('load', () => QRCode(
-  res => console.log({ res }),
-  // err => console.info(err, Date.now())
-))
