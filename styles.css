@@ -6,16 +6,32 @@ a {
   font-size: 18px;
 }
 
+img {
+  margin: 0 auto;
+  width: 320px;
+}
+
+input,
+button {
+  background-color: #ffffff;
+  border: calc(1rem / 8) solid #000000;
+  border-radius: 1rem;
+  color: #000000;
+  padding: calc(1rem / 4) calc(1rem / 2);
+}
+
 h1 {
   text-align: center;
+  margin: calc(1rem / 8) 0;
 }
 
 #app {
   margin: 0 auto;
-  width: 320px;
+  width: 400px;
 }
 
 #form {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
