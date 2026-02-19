@@ -1,37 +1,53 @@
-body,
-input,
-button,
-a {
-  font-family: sans-serif;
-  font-size: 18px;
+body {
+  font-size: 36px;
 }
 
-img {
-  margin: 0 auto;
-  width: 320px;
-}
-
+div,
+h1,
 input,
 button {
-  background-color: #ffffff;
-  border: calc(1rem / 8) solid #000000;
-  border-radius: 1rem;
-  color: #000000;
-  padding: calc(1rem / 4) calc(1rem / 2);
-}
-
-h1 {
-  text-align: center;
-  margin: calc(1rem / 8) 0;
+  margin: 0;
+  font-family: monospace;
+  border: none;
+  outline: none;
 }
 
 #app {
-  margin: 0 auto;
   width: 400px;
+  margin: 0px auto;
 }
 
-#form {
+#app h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#app input,
+#app button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 1px solid #666666;
+  outline: 1px solid #333333;
+  border-radius: calc(1rem / 4);
+}
+
+#group {
   display: flex;
   justify-content: space-between;
+}
+
+#input {
   margin-bottom: 1rem;
+  width: 60%;
+}
+
+#button {
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+#img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
