@@ -4,6 +4,7 @@ body {
 
 div,
 h1,
+h3,
 input,
 button {
   margin: 0;
@@ -12,7 +13,8 @@ button {
   outline: none;
 }
 
-#app {
+#app,
+#faq {
   width: 400px;
   margin: 0px auto;
 }
