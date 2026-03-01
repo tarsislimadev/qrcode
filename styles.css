@@ -57,3 +57,13 @@ button {
 #faq {
   font-size: 12px;
 }
+
+#faq h2 {
+  margin-bottom: 1rem;
+}
+
+#faq .question {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
